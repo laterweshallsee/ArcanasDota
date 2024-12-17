@@ -1,0 +1,200 @@
+body {
+ 
+    background-size: cover; /* Обеспечивает, что изображение будет покрывать весь фон */
+    background-repeat: no-repeat; /* Предотвращает повторение изображения */
+    background-position: top; /* Центрирует изображение */
+}
+
+#tab1 {
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/07/09/0/1468014310131931936.png'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+#tab2 {
+    background-image: url('https://i.ytimg.com/vi/99QEXZ6-9X4/maxresdefault.jpg'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+#tab3 {
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/07/09/0/1468014310131931936.png'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+#tab4 {
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/07/09/0/1468014310131931936.png'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+#tab5 {
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/07/09/0/1468014310131931936.png'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+#tab6 {
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/07/09/0/1468014310131931936.png'); /* Замените на свой путь к картинке */
+    background-size: cover;
+    background-position: center;
+    
+}
+.center-text {
+    display: flex;
+    justify-content: center;
+}
+.text-large {
+    font-size: 110px; /* Фиксированный размер текста в пикселях */
+}
+.text-large1 {
+    font-size: 100px
+}
+.text-large-sf {
+    font-size: 25px
+}
+.text-tp {
+    font-size: 50px
+}
+.text-width {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.border-box-sf {
+    border: 9px solid rgba(255, 92, 92, 0.219);
+    padding: 10px;
+    display: inline-block;
+    background-color: #472828c2;
+}
+.border-box-pd {
+    border: 9px solid rgba(161, 60, 60, 0.705);
+    padding: 10px;
+    display: inline-block;
+    background-color: #472828c2;
+}
+.border-box {
+    border: 9px solid rgba(206, 105, 11, 0.562);
+    padding: 10px;
+    display: inline-block;
+    background-color: #1b1b1bd3;
+}
+.main-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.skilli-i-silka {
+    display: flex;
+    align-items: center; /* Выравнивание по верхнему краю */
+    display: flex;
+            flex-wrap: wrap;
+            max-width: 700px;
+}
+.container-st {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-container {
+    display: flex;
+            flex-wrap: wrap; /* Скиллы переносятся на новую строку, если не помещаются в одну */
+            max-width: 700px; /* Максимальная ширина контейнера со скиллами */  
+            text-align: center;     
+}
+.container-box {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    
+}
+.image-container img {
+    width: 100px; /* Размеры для изображений скиллов */
+    margin: 5px; /* Отступы между скиллами */
+}
+.image-container4sk img {
+    width: 150px; /* Размеры для изображений скиллов */
+    margin: 5px; /* Отступы между скиллами */
+}
+.skills-text {
+    text-align: center; /* Текст по центру */
+    color: #fff; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    margin-top: 10px; /* Отступ сверху */
+}
+.hover-image {
+    width: 150px; /* Ширина изображения */
+    height: 100; /* Автоматическая высота для сохранения пропорций */
+    transition: all 0.5s ease; /* Плавный переход */
+}
+
+/* ГИФКИ ДЛЯ сфа */
+
+.hover-images-sf1:hover {
+    content: url('https://media.tenor.com/eKrDiwZxyqEAAAAM/dota2.gif'); /* URL анимированного GIF */
+}
+.hover-images-sf2:hover {
+    content: url('https://media1.tenor.com/m/SGwJY1PYsGAAAAAd/shadow-fiend.gif'); /* URL анимированного GIF */
+}
+.hover-images-sf3:hover {
+    content: url('https://media1.tenor.com/m/eCvQxd3qdWAAAAAd/sf-dota.gif'); /* URL анимированного GIF */
+}
+.hover-images-sf4:hover {
+    content: url('https://media.tenor.com/5IKPen-fVtIAAAAi/shadow-fiend-dota2.gif'); /* URL анимированного GIF */
+}
+.hover-images-sf5:hover {
+    content: url('https://media1.tenor.com/m/vm14hvPpEpMAAAAd/shadow-fiend-dota2.gif'); /* URL анимированного GIF */
+}
+.hover-images-sf6:hover {
+    content: url('https://media1.tenor.com/m/Hmp2fYfiM88AAAAd/requiem-of-souls-zxc.gif'); /* URL анимированного GIF */  
+}
+
+/* ГИФКИ ДЛЯ ПУДЖА */
+
+.hover-images-pd1:hover {
+    content: url('https://media1.tenor.com/m/edntMFMKAOsAAAAC/pudge-%D0%BF%D1%83%D0%B4%D0%B6.gif'); /* URL анимированного GIF */
+}
+.hover-images-pd2:hover {
+    content: url('https://media1.tenor.com/m/Qa6Je1Tal4UAAAAC/dota.gif'); /* URL анимированного GIF */
+}
+.hover-images-pd3:hover {
+    content: url('https://media1.tenor.com/m/BSEQAtx0bvQAAAAC/dota2.gif'); /* URL анимированного GIF */
+}
+.hover-images-pd4:hover {
+    content: url('https://media1.tenor.com/m/7DSCgngo4dYAAAAd/dota-medal-dota-rank.gif'); /* URL анимированного GIF */
+}
+/* Основные стили для вкладок */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+.tab-button {
+    flex: 1;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    outline: none;
+    font-size: 16px;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+.tab-button.active {
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+/* Отображение активного содержимого вкладки */
+.tab-content.active {
+    display: block;
+}
